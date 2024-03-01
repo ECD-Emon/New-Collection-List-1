@@ -1,0 +1,98 @@
+.heading-text{
+    padding: 0 36%;  
+}
+.grid-collection-product{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.grid-collection-product div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid-collection-product div{
+    position: relative;
+}
+.grid-collection-product div .text-cont{
+    position: absolute;
+    top: 4%;
+    width: 100%;
+}
+.grid-collection-product div .text-cont h4{
+    text-align: center;
+    font-size: 2rem;
+}
+.grid-collection-product .secondimg{
+    
+    height: 80%;
+    width: 38%;
+}
+
+.grid-collection-product .div1 {
+    height: 350px;
+    width: 30%;
+}
+
+.grid-collection-product .secondimg{
+    order: 2;
+ }
+ .grid-collection-product .firstimg{
+    order: 1;
+ }
+ .grid-collection-product .thirdimg{
+    order: 3;
+ }
+@media only screen and (max-width:376px) {
+    
+    .grid-collection-product{
+        display:flex;
+        flex-wrap: wrap;
+        color: white;
+    }
+    .grid-collection-product .div1 {
+        height: 200px;
+        width: 47%;
+    }
+    .grid-collection-product .secondimg{
+       order: 3;
+      height: 80%;
+       margin-top: 1rem;
+    }
+    .grid-collection-product .firstimg{
+       order: 1;
+    }
+    .grid-collection-product .thirdimg{
+       order: 2;
+    }
+}
+@media  (min-width:376px) and (max-width:968px){
+    .heading-text{
+        padding: 0 20%;  
+    }
+    .grid-collection-product{
+        display:flex;
+        flex-wrap: wrap;
+        color: white;
+    }
+    .grid-collection-product .div1 {
+        height: 400px;
+        width: 48%;
+    }
+    .grid-collection-product .secondimg{
+       order: 3;
+       height: 400px;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .grid-collection-product .firstimg{
+       order: 1;
+    }
+    .grid-collection-product .thirdimg{
+       order: 2;
+    }
+}
